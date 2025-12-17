@@ -1,0 +1,14 @@
+site:
+  title: "Infroxit_test"
+
+server:
+  files:
+    dev:
+      contentRoot: "build/processedResources/js/main/public"
+      script: "build/kotlin-webpack/js/developmentExecutable/infroxit_test.js"
+      api: "build/libs/infroxit_test.jar"
+    prod:
+      script: "build/kotlin-webpack/js/productionExecutable/infroxit_test.js"
+      siteRoot: ".kobweb/site"
+
+  port: 8080
