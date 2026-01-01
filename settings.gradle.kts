@@ -30,3 +30,5 @@ gradle.settingsEvaluated {
 rootProject.name = "infroxit_test"
 
 include(":site")
+
+include("server")
