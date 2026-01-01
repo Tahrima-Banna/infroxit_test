@@ -1,4 +1,4 @@
-*Frontend React app built and tested.
+*Frontend kobweb app built and tested.
 
 *Backend server created and configured.
 
